@@ -1,0 +1,50 @@
+.signupcontainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+   
+   
+}   
+.signuplogin{
+    display:flex;
+    position:relative;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width:400px; height:400px;
+    top: 115px;
+    
+}
+.signuph2{
+    color:rgb(86, 211, 86);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.signuplabel{
+
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 200px;
+    margin-right: auto;
+}
+.signupinput{
+    padding: 5px;
+    border: none;
+   border-bottom: 1px solid lightgreen;
+    width: 90%;
+    margin-left: 5px;
+    
+}
+.signupbutton{
+    padding: 15px;
+    border-radius: 10px;
+    background-color:rgb(87, 210, 87);
+    color: whitesmoke   ;
+    font-weight: bold;
+    margin:15px 140px;
+    border: none;
+    color: white;
+     width: 30%;
+    font-size: 16px;
+}
+

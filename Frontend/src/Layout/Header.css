@@ -1,0 +1,12 @@
+.header
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-weight:bolder;
+  font-size:medium;
+  background-color: rgb(242, 168, 168); /* Adjust as needed */
+  padding: 10px 0; /* Adjust as needed */
+  /* z-index: 100; */
+}

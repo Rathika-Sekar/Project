@@ -1,0 +1,53 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+   
+   
+}   
+.login{
+    display:flex;
+    position:relative;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: whitesmoke;
+    width:400px; height:400px;
+    top: 115px;
+    
+}
+.loginh3{
+    color:teal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.loginlabel{
+
+    font-family:'Times New Roman', Times, serif;
+    margin-right: auto;
+}
+.logininput{
+    padding: 5px;
+    border:solid 1px gainsboro ;
+    border-radius: 5px;
+    width: 95%;
+    margin-left: 5px;
+    
+}
+.loginbutton{
+    padding: 15px;
+    border-radius: 10px;
+    background-color:teal;
+    color: whitesmoke   ;
+    font-weight: bold;
+    margin:15px 120px;
+    border: none;
+color: white;
+width: 40%;
+font-size: 16px;
+}
+.loginbutton:hover{
+    background-color: rgb(49, 130, 130);
+}
+

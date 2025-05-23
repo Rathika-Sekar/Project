@@ -1,0 +1,80 @@
+.todo{
+    position:static;
+    margin-top: 150px;;
+    align-items: center;
+}
+.todoInput{
+    width:450px;
+    height:30px;
+    padding: 5px;
+    margin-left: 70px;
+    border: none;
+    border-bottom: 1px solid rgb(123, 123, 234);
+    align-items: center ;
+    
+}
+.todolist{
+    background-color: aliceblue;
+}
+.todoInput:focus{
+    outline: none;   
+
+}
+.todobutton{
+    padding: 15px;
+    border-radius: 10px;
+    background-color:rgb(87, 210, 87);
+    color: whitesmoke   ;
+    font-weight: bold;
+    margin-right: 0px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    width:100px;
+    background-color: rgb(88, 88, 146);;
+
+}
+/* .h3{
+
+} */
+button:hover{
+    background-color:rgb(95, 95, 252);
+}
+.logoutbutton{
+    position:absolute;
+    
+    background-color: gray;
+   
+    padding: 15px;
+    width:10%;
+    border-radius: 10px;
+    border:none;top:20px;
+    right:10px;
+    /* left:600px;  */
+}
+.logoutbutton:hover{
+    background-color: rgb(171, 170, 170);
+}
+
+.todocomplete{
+    background-color: grey;
+    padding: 15px;
+    width:100%;
+    border-radius: 10px;
+    border:none;
+    color: white;
+}
+.tododelete{
+    padding: 15px;
+    width:100%;
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(229, 39, 39);   
+}
+.tododelete:hover{
+    background-color: rgb(238, 78, 78);
+}
+td{
+    font-family: monospace;
+    font-size: 15px;
+}
