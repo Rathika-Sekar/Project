@@ -1,0 +1,16 @@
+# Java/Spring Boot
+backend/target
+*.log
+*.class
+*.jar
+*.war
+*.iml
+.idea/
+.vscode/
+
+# React
+frontend/node_modules
+frontend/build
+
+# OS files
+.DS_Store
